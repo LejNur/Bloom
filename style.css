@@ -1,0 +1,24 @@
+@import url('css/variables.css');
+@import url('css/buttons.css');
+@import url('css/typography.css');
+@import url('css/icons.css');
+@import url('css/sections/hero.css');
+@import url('css/sections/why-shop.css');
+@import url('css/sections/services.css');
+@import url('css/sections/our-services-details.css');
+@import url('css/sections/blog.css');
+@import url('css/sections/most-popular.css');
+@import url('css/sections/shop.css');
+@import url('css/sections/footer.css');
+@import url('css/media-query.css');
+
+body {
+    background-color: var(--bg-color);
+    font-family: "Poppins", sans-serif;
+    margin:0;
+    padding:0;   
+}
+
+html {
+    scroll-behavior: smooth;
+}

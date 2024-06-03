@@ -1,0 +1,65 @@
+h1 {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    color: #ffffff;
+}
+
+h1 span {
+    color: var(--primary-color);
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #000000;
+    letter-spacing: 0.8px;
+    margin:3rem 2rem;
+}
+
+#blog h2 {
+    margin:1rem 2rem;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h4 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+.hero-paragraph {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 1.5px;
+    color: #ffffff;
+}
+
+.description-paragraph {
+    font-size:16px;
+    font-weight: 300;
+    line-height: 2;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+footer p {
+ font-weight: 200;
+ text-align: center;
+}
+
+
+.copyright {
+    font-size:10px;
+    font-weight: 300;
+}

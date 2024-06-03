@@ -1,0 +1,40 @@
+#services img {
+    max-width:100%;
+    height:auto;
+}
+
+.service {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem auto; 
+}
+
+.service a {
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+
+.service a:hover {
+    transform: scale(1.1)
+}
+
+.rental {
+    background-color:#EDAFA4; 
+}
+
+.maintenance {
+    background-color: #8DB6B6;
+}
+
+.consultation {
+    background-color:#95B78D; 
+}
+
+.installation {
+    background-color: #FF6500;
+}

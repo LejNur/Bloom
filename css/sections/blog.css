@@ -1,0 +1,15 @@
+#blog {
+    height: max-content;
+    margin-block: 3rem;
+    background-image: url('/images/blog.png');
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:50px;
+}
+
+
+
+#blog a {
+    text-decoration: none;
+}

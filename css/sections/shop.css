@@ -1,0 +1,40 @@
+#shop {
+    margin:3rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:20px;
+    
+}
+
+.card {
+    flex-basis: calc(50% - 10px);
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    width:auto;
+} 
+
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-text {
+    flex-grow: 1;
+    font-size:14px;
+    font-weight: 200;
+    padding:8px;
+    line-height: 1.8;
+}
+
+.price {
+    font-weight: 600;
+    padding:8px;
+    text-align: center;
+}
+

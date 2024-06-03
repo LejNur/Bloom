@@ -1,0 +1,231 @@
+@media only screen and (min-width:768px) and (max-width:1920px) {
+
+    h1 {
+        font-size: 80px;
+        font-weight: 900;
+
+    }
+
+    h2 {
+        font-size: 50px;
+        margin: 8rem 4rem;
+        display: block;
+
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 20px;
+    }
+
+    .description-paragraph {
+        font-size: 18px;
+        font-weight: 300;
+        padding: 3rem 1rem;
+    }
+
+    /* hero section */
+    #hero {
+        height: 60vh;
+        padding: 5rem;
+    }
+
+    #hero .primary-btn {
+        padding: 18px 36px;
+        margin-top: 2.5rem;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+
+    /* why-shop section */
+
+    #why-shop {
+        margin-inline: 5rem;
+    }
+
+    .why-content {
+        display: flex;
+        justify-items: center;
+        justify-content: stretch;
+        align-items: stretch;
+        gap: 10px;
+    }
+
+    .why-content>div {
+        box-sizing: border-box;
+        flex: 1 0 calc(33.3% - 10px)
+    }
+
+    /* services section */
+    #services {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-basis: 50%;
+        margin-block: 10rem;
+
+    }
+
+    #services img {
+        width: 50%;
+        height: 100vh;
+        object-fit: cover;
+        object-position: center center;
+    }
+
+    .our-services {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .service {
+        max-width: 300px;
+        width: 50%;
+        height: 300px;
+        flex-basis: 50%;
+        margin: 1rem auto;
+    }
+
+    #our-services-details {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-flow: dense;
+        margin-block: 10rem;
+        overflow: hidden;
+        gap: 0;
+    }
+
+    #our-services-details img {
+        height: 700px;
+        object-position: bottom;
+    }
+
+    .grid-text-right {
+        grid-column: 2;
+        position: relative;
+    }
+
+    .grid-text-right::after {
+        position: absolute;
+        right: -180px;
+        top: auto;
+        bottom: auto;
+        content: '';
+        width: 600px;
+        height: 600px;
+        border-radius: 50%;
+        background-color: var(--highlight-color-green);
+        display: block;
+        z-index: -1;
+    }
+
+    #plant-maintenance::after {
+        background-color: var(--highlight-color-blue);
+    }
+
+    #installation::after {
+        background-color: var(--highlight-color-orange);
+    }
+
+    .grid-image-left {
+        grid-column: 1;
+    }
+
+    .service-detail {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem;
+        position: relative;
+    }
+
+    .grid-text-left::after {
+        position: absolute;
+        left: -180px;
+        top: auto;
+        bottom: auto;
+        content: '';
+        width: 600px;
+        height: 600px;
+        border-radius: 50%;
+        display: block;
+        z-index: -1;
+    }
+
+    #plant-rental::after {
+        background-color: var(--highlight-color-pink);
+    }
+
+    #consultation::after {
+        background-color: var(--highlight-color-green);
+    }
+
+
+    /* blog section */
+    #blog {
+        height: 60vh;
+        background-position: center bottom -500px;
+        padding: 50px;
+    }
+
+    /* most-popular section */
+    #most-popular {
+        margin-inline: 10rem;
+
+    }
+
+    .popular-plants {
+        display: flex;
+        justify-content: stretch;
+        align-items: stretch;
+        gap: 20px;
+    }
+
+    .img-card {
+        box-sizing: border-box;
+        flex: 1 0 calc(33.3% - 10px)
+    }
+
+    /* shop section */
+
+    #shop {
+        margin-inline: 10rem;
+    }
+
+    #shop h2 {
+        margin: 0 auto;
+    }
+
+    .shop-cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .card {
+        flex-basis: calc(25% - 10px);
+
+    }
+
+    .card .secondary-btn {
+        display: block;
+        width: fit-content;
+        margin-bottom: 1rem;
+    }
+
+
+
+
+
+}

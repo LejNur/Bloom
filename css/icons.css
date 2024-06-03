@@ -1,0 +1,10 @@
+
+.why-icon {
+    color: var(--primary-color);
+    margin-top: 3rem;
+    transition: all 300ms ease-in-out;
+}
+
+.why-icon:hover {
+    transform: translateY(-8px);
+}
