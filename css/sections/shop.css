@@ -12,12 +12,11 @@
     flex-basis: calc(50% - 10px);
     box-sizing: border-box;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-    margin-bottom: 2rem;
+    margin:2rem auto;
     display: flex;
     flex-direction: column;
-    width:auto;
+    width:80%;
 } 
-
 
 .card img {
     width: 100%;
@@ -30,6 +29,7 @@
     font-weight: 200;
     padding:8px;
     line-height: 1.8;
+    text-align: center;
 }
 
 .price {
